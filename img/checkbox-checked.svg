@@ -1,0 +1,4 @@
+<svg viewBox="0 0 100 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect x="15" y="10" ry="10" rx="10" width="60" height="60" fill="transparent" stroke="black" stroke-width="10"/>
+	<path class='checkmark' d="M 5 50 L 35 80 L 90 30" fill="transparent" stroke="#8cbc19" stroke-width="20" transform="translate(5 -13)"/>
+</svg>							

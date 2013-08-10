@@ -47,5 +47,55 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 	ul.stripped {
 		list-style-type: none;
 	}
+	
+	ul {
+		&.checklist {
+			list-style-type: none;
+						
+			input[type='checkbox'] {
+				display: none;
+				
+				+ label {
+					background-image: url('../../../img/checkbox-unchecked.svg');
+					background-repeat: no-repeat;
+					background-size: 60px;
+					padding-left: 60px;
+					display: inline-block;
+				}
+				
+				&:checked {
+					+ label {
+						background-image: url('../../../img/checkbox-checked.svg');
+						color: #888;
+					}
+				}
+			}
+		}
+		
+		&.x-list {
+			list-style-type: none;
+			
+			li {
+				background-image: url('../../../img/x.svg');
+				background-repeat: no-repeat;
+				padding-left: 60px;
+			}
+		}
+	}
+	
+	section {
+		img {
+			width: 100%;
+			border: none;
+			box-shadow: none;
+			
+			&.autowidth {
+				width: auto;
+			}
+		}
+	}
+	
+	.scrolling {
+		overflow: scroll;
+	}
 }
-
