@@ -1,5 +1,5 @@
 /**
- * A combination of 'Simple' and 'Serif' themes for reveal.js presentations. 
+ * A combination of 'Simple' and 'Serif' themes for reveal.js presentations.
  */
 
 
@@ -31,9 +31,14 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 // ---------------------------------------------
 
 .reveal {
+	h1, h2, h3, h4, h5, h6 {
+		hyphens: manual;
+	}
+
 	h1 {
 		// text-transform: none;
 	}
+	
 	li {
 		margin-bottom: .5em;
 	}
@@ -47,14 +52,14 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 	ul.stripped, ol.stripped {
 		list-style-type: none;
 	}
-	
+
 	ul {
 		&.checklist {
 			list-style-type: none;
-						
+
 			input[type='checkbox'] {
 				display: none;
-				
+
 				+ label {
 					background-image: url('../../../img/checkbox-unchecked.svg');
 					background-repeat: no-repeat;
@@ -62,7 +67,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 					padding-left: 60px;
 					display: inline-block;
 				}
-				
+
 				&:checked {
 					+ label {
 						background-image: url('../../../img/checkbox-checked.svg');
@@ -71,10 +76,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 				}
 			}
 		}
-		
+
 		&.x-list {
 			list-style-type: none;
-			
+
 			li {
 				background-image: url('../../../img/x.svg');
 				background-repeat: no-repeat;
@@ -82,19 +87,19 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 			}
 		}
 	}
-	
+
 	section {
 		img {
 			width: 100%;
 			border: none;
 			box-shadow: none;
-			
+
 			&.autowidth {
 				width: auto;
 			}
 		}
 	}
-	
+
 	.scrolling {
 		overflow: scroll;
 	}
