@@ -6,6 +6,12 @@ This uses the [Reveal.js](http://lab.hakim.se/reveal-js/#/) library to display a
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
+## Contents
+
+This repository currently only includes slides with limited notes. To view the notes along with slides, enter Reveal.js&rsquo; _presenter view_ by hitting the `S` key.
+
+This repo doesn&rsquo;t include the full text of the talk, so it isn&rsquo;t a complete experience. You can view Matthew&rsquo;s first-ever public presentation of this talk on [WordPress.tv](http://wordpress.tv/2013/08/22/matthew-eppelsheimer-checklists-a-path-to-mistake-free-development-and-publishing/).
+
 ## Notes on Git use
 
 1. The presentation is on branch `checklists`.
